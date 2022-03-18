@@ -45,7 +45,10 @@ function Slidebar() {
         if (index === activeSlide) {
           return (
             <div
-              className={`wrapper flex w-[100%] h-[500px] justify-center items-center shadow-2xl rounded-xl border-[#c0c0c0] border-10px overflow-hidden relative + slide.background`}
+              className={
+                `wrapper flex w-[100%] h-[500px] justify-center items-center shadow-2xl rounded-xl border-[#c0c0c0] border-10px overflow-hidden relative` +
+                slide.background
+              }
             >
               <div className="slide flex items-center justify-center h-[100%]">
                 <div className="for-image flex justify-center items-center h-[100%]">

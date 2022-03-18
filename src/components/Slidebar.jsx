@@ -50,7 +50,6 @@ function Slidebar() {
               <div className="slide flex items-center justify-center h-[100%]">
                 <div className="for-image flex justify-center items-center h-[100%]">
                   <img
-                    key={slide.photoID}
                     src={slide.src}
                     alt="fashion"
                     className="h-[100%] object-cover"
@@ -64,6 +63,8 @@ function Slidebar() {
               </div>
             </div>
           );
+        } else {
+          return console.log("No photo here");
         }
       })}
       {/* Right arrow */}

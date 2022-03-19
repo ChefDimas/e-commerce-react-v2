@@ -1,7 +1,7 @@
 export const CategoriesApi = [
   {
     title: "Jeans",
-    src: "https://images.pexels.com/photos/1598507/pexels-photo-1598507.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    src: "https://images.unsplash.com/photo-1602293589930-45aad59ba3ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8amVhbnN8ZW58MHwxfDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
   },
   {
     title: "T-Shirts",

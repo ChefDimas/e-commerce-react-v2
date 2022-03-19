@@ -5,7 +5,7 @@ export const CategoriesApi = [
   },
   {
     title: "T-Shirts",
-    src: "https://images.pexels.com/photos/6347892/pexels-photo-6347892.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    src: "https://images.unsplash.com/photo-1576871337622-98d48d1cf531?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
   },
   {
     title: "Polo",

@@ -46,8 +46,9 @@ function Slidebar() {
           return (
             <div
               className={
-                `wrapper flex w-[100%] h-[500px] justify-center items-center shadow-2xl rounded-xl border-[#c0c0c0] border-10px overflow-hidden relative` +
-                slide.background
+                `wrapper flex w-[100%] h-[500px] justify-center items-center shadow-2xl rounded-xl border-[#c0c0c0] border-10px overflow-hidden relative bg-[` +
+                slide.background +
+                `]`
               }
             >
               <div className="slide flex items-center justify-center h-[100%]">

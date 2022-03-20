@@ -4,7 +4,8 @@ import Product from "./Product";
 
 function Products() {
   return (
-    <div>
+    //  All products container
+    <div className="flex flex-wrap p-5 items-center justify-center">
       {TopProductsApi.map((product, index) => {
         return <Product item={product} key={index} />;
       })}

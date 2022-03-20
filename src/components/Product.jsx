@@ -20,19 +20,19 @@ function Product({ item }) {
 
   //Icon style Const
   const iconStyle =
-    "h-[40px] w-[40px] rounded-full bg-white flex items-center justify-center m-3 cursor-pointer";
+    "h-[40px] w-[40px] rounded-full bg-white flex items-center justify-center m-3 cursor-pointer hover:bg-[#894af3] hover:text-white hover:scale-[1.1] ease-in duration-100";
 
   return (
     //  Product Container
     <div
-      className="flex items-center justify-center min-w-[200px] min-h-[350px] overflow-hidden rounded-md shadow-lg m-2 relative"
+      className="flex items-center justify-center min-w-[200px] min-h-[350px] overflow-hidden rounded-md shadow-lg m-2 relative "
       onMouseEnter={handleHoverEnter}
       onMouseLeave={handleHoverExit}
     >
       <img src={item.src} alt="product-img" className="h-[600px]" />
       <div
         className={
-          `flex items-center justify-center w-[100%] h-[100%] absolute ` +
+          `flex items-center justify-center w-[100%] h-[100%] absolute ease-in duration-100 ` +
           hoverEffect
         }
       >

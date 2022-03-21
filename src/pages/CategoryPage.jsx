@@ -32,7 +32,7 @@ function CategoryPage() {
               </option>
               <option value="yellow">Yellow</option>
               <option value="black">Black</option>
-              <option value="white">White</option>
+              <option value="white">Gray</option>
             </select>
           </div>
           <div className="flex">

@@ -31,7 +31,7 @@ function ProductPage() {
           {/* Color Choose */}
           <div className="flex text-2xl mt-7">
             <div className="bg-yellow-600 w-[2rem] h-[2rem] rounded-full border-2 p-[10px] cursor-pointer ml-5"></div>
-            <div className="bg-gray-300 w-[2rem] h-[2rem] rounded-full border-2 p-[10px] cursor-pointer ml-5"></div>
+            <div className="bg-blue-700 w-[2rem] h-[2rem] rounded-full border-2 p-[10px] cursor-pointer ml-5"></div>
             <div className="bg-black w-[2rem] h-[2rem] rounded-full border-2 p-[10px] cursor-pointer ml-5"></div>
           </div>
           <div className="mt-7 text-2xl">

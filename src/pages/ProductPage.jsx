@@ -1,5 +1,6 @@
 import React from "react";
 import Announce from "../components/Announce";
+import Counter from "../components/Counter";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import Newsletter from "../components/Newsletter";
@@ -44,6 +45,9 @@ function ProductPage() {
               <option value="medium">Medium</option>
               <option value="large">Large</option>
             </select>
+          </div>
+          <div className="mt-5">
+            <Counter />
           </div>
         </div>
       </div>

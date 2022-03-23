@@ -31,9 +31,9 @@ function ProductPage() {
           </p>
           {/* Color Choose */}
           <div className="flex text-2xl mt-7">
-            <div className="bg-yellow-600 w-[2rem] h-[2rem] rounded-full border-2 p-[10px] cursor-pointer ml-5"></div>
-            <div className="bg-blue-700 w-[2rem] h-[2rem] rounded-full border-2 p-[10px] cursor-pointer ml-5"></div>
-            <div className="bg-black w-[2rem] h-[2rem] rounded-full border-2 p-[10px] cursor-pointer ml-5"></div>
+            <div className="bg-yellow-600 w-[2rem] h-[2rem] rounded-full border-2 p-[10px] cursor-pointer ml-5 hover:border-[#8a4af3]"></div>
+            <div className="bg-blue-700 w-[2rem] h-[2rem] rounded-full border-2 p-[10px] cursor-pointer ml-5 hover:border-[#8a4af3]"></div>
+            <div className="bg-black w-[2rem] h-[2rem] rounded-full border-2 p-[10px] cursor-pointer ml-5 hover:border-[#8a4af3]"></div>
           </div>
           <div className="mt-7 text-2xl">
             Size
@@ -49,6 +49,7 @@ function ProductPage() {
           <div className="mt-5">
             <Counter />
           </div>
+          <button className="btn mt-5">Add to cart</button>
         </div>
       </div>
       <Newsletter />

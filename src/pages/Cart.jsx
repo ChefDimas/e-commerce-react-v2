@@ -26,7 +26,7 @@ function Cart() {
         <div className="flex mt-7">
           <div className="flex flex-col flex-1">
             {/* List of products div */}
-            <div>
+            <div className="flex w-[100%] h-auto items-center">
               <div>
                 <img
                   src="https://www.c-and-a.com/productimages/b_rgb:EBEBEB,c_scale,h_860,q_auto:eco,e_sharpen:70/v1643022569/2170303-1-08.jpg"
@@ -37,17 +37,17 @@ function Cart() {
                     <b>ID</b> : 12345
                   </p>
                   <p>
-                    <b>Product</b> : 12345
+                    <b>Product</b> : Harry Potter Hoodie
                   </p>
                   <p>
-                    <b>Color</b> : 12345
+                    <b>Color</b> : Light-Blue
                   </p>
                   <p>
-                    <b>Size</b> : 12345
+                    <b>Size</b> : Medium
                   </p>
                 </div>
               </div>
-              <div>Product quantity an price</div>
+              <div>Product quantity and price</div>
             </div>
           </div>
         </div>

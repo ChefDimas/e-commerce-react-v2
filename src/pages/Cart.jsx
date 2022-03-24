@@ -24,11 +24,12 @@ function Cart() {
         </div>
         {/* Central Div */}
         <div className="flex mt-7">
-          <div className="flex flex-col flex-1">
+          <div className="flex flex-col flex-1 bg-blue-200">
             {/* List of products div */}
-            <div className="flex w-[100%] h-auto items-center">
-              <div>
+            <div className="flex w-[100%] h-auto items-center bg-yellow-500">
+              <div className="product flex self-start pl-5">
                 <img
+                  className="w-[80%] h-[80%] rounded-lg shadow-lg hover:scale-1.1 ease-in duration-300"
                   src="https://www.c-and-a.com/productimages/b_rgb:EBEBEB,c_scale,h_860,q_auto:eco,e_sharpen:70/v1643022569/2170303-1-08.jpg"
                   alt="product_img"
                 />
@@ -47,9 +48,10 @@ function Cart() {
                   </p>
                 </div>
               </div>
-              <div>Product quantity and price</div>
+              <div className="bg-green-400">Product quantity and price</div>
             </div>
           </div>
+          <div className="bg-red-400">Summary</div>
         </div>
       </div>
       <Newsletter />
